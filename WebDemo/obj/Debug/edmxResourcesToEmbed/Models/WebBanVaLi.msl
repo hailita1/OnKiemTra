@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBanVaLiModelStoreContainer" CdmEntityContainer="QLBanVaLiEntities">
+    <EntitySetMapping Name="tAnhSPs">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tAnhSP">
+        <MappingFragment StoreEntitySet="tAnhSP">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenFileAnh" ColumnName="TenFileAnh" />
+          <ScalarProperty Name="ViTri" ColumnName="ViTri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tChatLieux">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tChatLieu">
+        <MappingFragment StoreEntitySet="tChatLieu">
+          <ScalarProperty Name="MaChatLieu" ColumnName="MaChatLieu" />
+          <ScalarProperty Name="ChatLieu" ColumnName="ChatLieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tDanhMucSPs">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tDanhMucSP">
+        <MappingFragment StoreEntitySet="tDanhMucSP">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="MaChatLieu" ColumnName="MaChatLieu" />
+          <ScalarProperty Name="NganLapTop" ColumnName="NganLapTop" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="MauSac" ColumnName="MauSac" />
+          <ScalarProperty Name="MaKichThuoc" ColumnName="MaKichThuoc" />
+          <ScalarProperty Name="CanNang" ColumnName="CanNang" />
+          <ScalarProperty Name="DoNoi" ColumnName="DoNoi" />
+          <ScalarProperty Name="MaHangSX" ColumnName="MaHangSX" />
+          <ScalarProperty Name="MaNuocSX" ColumnName="MaNuocSX" />
+          <ScalarProperty Name="MaDacTinh" ColumnName="MaDacTinh" />
+          <ScalarProperty Name="Website" ColumnName="Website" />
+          <ScalarProperty Name="ThoiGianBaoHanh" ColumnName="ThoiGianBaoHanh" />
+          <ScalarProperty Name="GioiThieuSP" ColumnName="GioiThieuSP" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="ChietKhau" ColumnName="ChietKhau" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="MaDT" ColumnName="MaDT" />
+          <ScalarProperty Name="Anh" ColumnName="Anh" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tHangSXes">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tHangSX">
+        <MappingFragment StoreEntitySet="tHangSX">
+          <ScalarProperty Name="MaHangSX" ColumnName="MaHangSX" />
+          <ScalarProperty Name="HangSX" ColumnName="HangSX" />
+          <ScalarProperty Name="MaNuocThuongHieu" ColumnName="MaNuocThuongHieu" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tKichThuocs">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tKichThuoc">
+        <MappingFragment StoreEntitySet="tKichThuoc">
+          <ScalarProperty Name="MaKichThuoc" ColumnName="MaKichThuoc" />
+          <ScalarProperty Name="KichThuoc" ColumnName="KichThuoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tLoaiDTs">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tLoaiDT">
+        <MappingFragment StoreEntitySet="tLoaiDT">
+          <ScalarProperty Name="MaDT" ColumnName="MaDT" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tLoaiSPs">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tLoaiSP">
+        <MappingFragment StoreEntitySet="tLoaiSP">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="Loai" ColumnName="Loai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tQuocGias">
+      <EntityTypeMapping TypeName="QLBanVaLiModel.tQuocGia">
+        <MappingFragment StoreEntitySet="tQuocGia">
+          <ScalarProperty Name="MaNuoc" ColumnName="MaNuoc" />
+          <ScalarProperty Name="TenNuoc" ColumnName="TenNuoc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,6 @@
+﻿@using WebDemo.Models
+@model List<tQuocGia>
+@foreach (var item in Model)
+{
+    <li><a href="@Url.Action("SanPhamTheoQuocGia","Home", new {@MaNuoc = item.MaNuoc})">@item.TenNuoc</a></li>
+}
